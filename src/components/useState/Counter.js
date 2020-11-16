@@ -11,7 +11,7 @@ function Counter() {
   //   };
 
   //Whenever we want to change the state based on previous state, always use fun in setState which has access
-  //to previos state
+  //to previous state
   const incFive = () => {
     for (let i = 0; i < 5; i++) {
       setCount(prevCount => prevCount + 1);
